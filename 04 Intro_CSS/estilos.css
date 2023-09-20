@@ -1,0 +1,22 @@
+h1 {
+    color: darkgreen;
+}
+/* Así se comenta */
+p {
+    color: blueviolet;
+    font-size: 16pt;
+}
+
+#plantasbuenas {
+    color: black;
+    font-size: 20pt;
+}
+
+#sustratoconcreto {
+    color: brown;
+}
+
+.cabeza2 {
+    font-size: 50pt;
+    text-transform: uppercase;
+}
