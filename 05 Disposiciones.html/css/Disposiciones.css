@@ -1,0 +1,17 @@
+.div1, .div2{
+    background-color: darkgoldenrod;
+}
+
+.imag{
+    width: 150px;
+    height: 150px;
+}
+.span1{
+    background-color: aqua;
+    float: left;
+}
+
+.span2{
+    background-color: aqua;
+    float: right;
+}

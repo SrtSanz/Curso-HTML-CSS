@@ -1,0 +1,28 @@
+div {
+    left: 80px;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+/*posicionamiento relativo. Se relacona en relacion al posicionamiento original*/
+.relative{
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+.fixed{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 10; /*te dice cómo es su posicionamiento. si se ve por encima o por debajo de otros elementos*/
+}
+.absolute{
+    position: absolute;
+    top: 0px;
+}
+.sticke{
+    background-color: cornflowerblue;
+    position: sticky; /*cuando haces scroll ese elemento se queda fijo en un punto mientras corre toda la pantalla. Se suele utilizar para dejar visible los menús*/
+    top: 0px;
+
+}

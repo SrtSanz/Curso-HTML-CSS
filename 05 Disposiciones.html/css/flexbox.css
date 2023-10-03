@@ -1,0 +1,29 @@
+/*https://codepen.io/enxaneta/full/adLPwv*/ /*Aquí se pueden hacer experimentos*/
+
+.flexx{
+    display: flex;  /* contiene todo lo wue tenga dentro del div y lo posiciona de una forma ordenada. Por defecto lo pone en una fila. */
+    flex-direction: column ;/*Podemos cambiar el eje principal*/
+    background-color: yellow;
+    height: 300px;
+    justify-content: space-around; /* Con esta herramienta se puede posicionar las cosas del flex con relación al eje horicontal*/
+    /*flex-wrap: wrap;*/ /*Esto va a intentar mantener el tamaño que hemos indicado todo lo posible, si tiene que crear otra línea para mover los elementos lo hace. Evita redimensionamiento de los elementos*/
+    align-items: center ;/*Sirve pàra posicionar en el eje vertical. Por defecto Stretch lo que hace es dimensionarlo en toda la altura del contenedor*/
+}
+.contenido1{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border: 1px solid blue;
+}
+.contenido2{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border: 1px solid blue;
+}
+.contenido3{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border: 1px solid blue;
+}
